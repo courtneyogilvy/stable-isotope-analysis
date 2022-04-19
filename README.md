@@ -1,7 +1,7 @@
 # stable-isotope-analysis
 
-This code in this repository
-is to accompany the manuscript "Diet variation in a critically-endangered marine predator revealed with stable isotope analysis" 
+The code in this repository
+accompanies the manuscript "Diet variation in a critically-endangered marine predator revealed with stable isotope analysis" 
 submitted to Royal Society Open Science.
 
 Code for Figure 1 is not available as this was created in QGIS.
