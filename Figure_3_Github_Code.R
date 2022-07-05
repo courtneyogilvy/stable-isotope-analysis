@@ -4,14 +4,8 @@
 library(ggplot2)
 library(ggrepel)
 
-resample.data <- read.csv("Maui_Isotope_Resampling_Data.csv")
-dolphin.data <- read.csv("Dolphin_Master_CSV_File.csv")
-
-#remove the neonates from the dataset 
-
-dolphin.data <- dolphin.data[-which(dolphin.data$Individual_ID =="50"),]
-dolphin.data <- dolphin.data[-which(dolphin.data$Individual_ID =="52"),]
-
+resample.data <- read.csv("Insert_Filename_Here.csv")
+dolphin.data <- read.csv("Insert_Filename_Here.csv")
 
 dolphin.data$cluster <- as.factor(dolphin.data$cluster)
 
